@@ -1,0 +1,101 @@
+@media(max-width:1200px){
+   
+    
+    header{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-inicio article{
+        margin: 0;
+
+    }
+    
+   
+    .box-inicio{
+        
+       
+        display: flex;
+        justify-content: center;
+       
+        flex-direction: column;
+      
+    }
+   
+    .container-tec{
+        
+        text-align: center
+    }
+    .techs{
+        margin: 0;
+    }
+    .techs .box-cards1{  
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container-projetos{
+        text-align: center;
+    }
+    .container-projetos h2{
+        margin: 10px auto;
+    }
+    .box-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        
+    }
+}  
+
+@media(max-width:700px){
+   header{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+   }
+   .box-inicio{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+     
+    font-size: small;
+
+   }
+   .box-inicio article{
+    margin: 0;
+    width: 50%;
+    text-align: center;
+   }
+   
+   
+}
+@media(max-width:400px){
+    .box-inicio figure img{
+     width: 200px;
+     height: fit-content;
+    
+    }
+    .box-cards1{
+        display: flex;
+        flex-direction: column;
+    }
+}

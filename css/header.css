@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    padding: 20px;
+    margin: 10px 5px;
+    
+}
+header h1{
+    font-weight: 200;
+}
+
+header nav{
+    display: flex;
+    gap: 30px;
+
+
+}
+ i {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+
+ i:hover{
+    color: rgb(0, 162, 255);
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1EM;
+    background: black;
+    
+}
+footer span{
+    color: white;
+    font-size: 10px;
+}
+
+
