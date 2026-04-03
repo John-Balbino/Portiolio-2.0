@@ -121,9 +121,13 @@ article p{
     align-items: center;
     margin-left: 2rem;
     gap: 20px;
+   
 }
 .box-cards figure img{
-    width: 300px;
+   width: 300px;
+   height: 200px;
+   border-radius: 24px;
+   padding: 10px;
     
 
 }
