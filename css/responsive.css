@@ -85,6 +85,10 @@
     width: 50%;
     text-align: center;
    }
+   .container-projetos button{
+    margin: 0;
+    text-align: center;
+   }
    
    
 }

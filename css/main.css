@@ -135,6 +135,10 @@ article p{
     margin: 3em 0;
 
 }
+.container-projetos button{
+    margin-left: 5em;
+    transition: 1s ease-in-out;
+}
 .container-projetos h2{
     margin-left: 2em;
     margin-bottom: 1em;
@@ -142,6 +146,7 @@ article p{
 .box-cards{
     display: flex;
     align-items: center;
+    margin-top: 2em;
     margin-left: 2rem;
     gap: 20px;
    
