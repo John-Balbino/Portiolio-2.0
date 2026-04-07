@@ -85,20 +85,29 @@
 
    }
     .box-inicio figure img{
-     width: 300px;
-     height: fit-content;
-    
+    width: 300px;
+    height: fit-content;
+
     }
     .box-inicio figure::before{
-        width: 200px;
-        height: 250px;
-    }
+    width: 200px;
+    height: 250px;
+}
    .box-inicio article{
     margin: 0;
     width: 50%;
     text-align: center;
    }
+   .box-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     margin-left: 0;
+   }
    .container-projetos button{
+    
     margin: 0;
     text-align: center;
    }
