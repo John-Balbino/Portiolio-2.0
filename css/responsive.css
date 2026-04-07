@@ -30,6 +30,7 @@
         flex-direction: column;
       
     }
+    
    
     .container-tec{
         
@@ -40,7 +41,7 @@
     }
     .techs .box-cards1{  
         
-        display: flex;
+        
         justify-content: center;
         
     }
@@ -50,13 +51,16 @@
     .container-projetos h2{
         margin: 10px auto;
     }
-    .box-cards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        
+    .box-cards1{
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        gap: 20px;
+
     }
+    .container-projetos button{
+    margin: 0;
+    text-align: center;
+   }
 }  
 
 @media(max-width:700px){
@@ -80,6 +84,15 @@
     font-size: small;
 
    }
+    .box-inicio figure img{
+     width: 300px;
+     height: fit-content;
+    
+    }
+    .box-inicio figure::before{
+        width: 200px;
+        height: 250px;
+    }
    .box-inicio article{
     margin: 0;
     width: 50%;
@@ -89,6 +102,11 @@
     margin: 0;
     text-align: center;
    }
+    .box-cards1{
+       display: grid;
+       grid-template-columns: repeat(2, 0fr);
+       
+    }
    
    
 }
@@ -98,8 +116,13 @@
      height: fit-content;
     
     }
+    
+    
     .box-cards1{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+        gap: 20px;
+       
     }
 }
