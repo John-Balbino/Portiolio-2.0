@@ -22,12 +22,33 @@ main{
 .box-inicio  figure img{
     
     width: 400px;
-    height: 400px;
-    border-radius: 100%;
-    border: 2px solid rgb(0, 162, 255);
-    box-shadow: 0 0 20px rgb(0, 162, 255);
+    height: 450px;
+    border-radius: 0 50px 0 50px;
+    rotate: 10deg;
+    
+    
+    
     
 }
+.box-inicio figure::before{
+    content: "";
+    position: absolute;
+    width: 410px;
+    height: 460px;
+    border-radius: 0 50px 0 50px;
+    background: conic-gradient(from 180deg at 50% 50%,
+    rgb(255, 255, 255) 0deg,
+    rgb(0, 162, 255) 90deg,
+    rgba(0, 200, 235, 0.863) 180deg,
+    rgb(0, 162, 255) 270deg,
+    rgb(255, 255, 255) 360deg
+      );
+    z-index: -1;
+    rotate: 10deg; 
+    
+}
+
+
 .box-inicio figure img:hover{
     box-shadow: 0 0 0px rgb(40, 175, 253);
     transition: 1s ease-in-out;
@@ -71,7 +92,7 @@ article p{
     width: 100px;
     height: 100px;
 
-    background: #b1b1b13a;
+    background: #b1b1b191;
     backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px;
@@ -87,7 +108,9 @@ article p{
     gap: 20px;
 
 
-}   
+}
+
+
 .techs{
     margin-left: 5em;
     display: flex;
