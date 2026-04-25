@@ -12,7 +12,8 @@
     <!--FONTS/ICONS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/6860ca0aa6.js" crossorigin="anonymous" defer></script>
     <!--jQuery-->
@@ -25,8 +26,8 @@
     <header>
         <h1>Dev.JohnBalbino</h1>
         <nav>
-            
-            
+
+
             <a href="https://github.com/John-Balbino" target="_blank">
                 <i class="fa-brands fa-github-alt"></i>
             </a>
@@ -34,7 +35,7 @@
             <a href="https://www.linkedin.com/in/jonathanrodriguesbalbinodasilva/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="" onclick="whats()">
+            <a href="" onclick="whats()" class="whats">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
 
@@ -45,10 +46,12 @@
             <article>
                 <h2>John Balbino</h2>
                 <span>Desenvolvedor Front-end</span>
-                <p>Sou desenvolvedor front-end com foco em transforma ideias em experiências digitais envolventes. 
-                   Trabalho com tecnologias modernas como <span style="color:rgb(0, 162, 255)">HTML,CSS e JavaScript</span> , sempre buscando criar interfaces
-                   intuitivas, responsivas e acessíveis.
-                   Com o foco em desenvolver páginas modernas para pequenos négocios, facilitando o acesso de seus clientes a informações, contatos e produtos! 
+                <p>Sou desenvolvedor front-end com foco em transformar ideias em experiências digitais envolventes.
+                    Trabalho com tecnologias modernas como <span style="color:rgb(0, 162, 255)">HTML,CSS e
+                        JavaScript</span> , sempre buscando criar interfaces
+                    intuitivas, responsivas e acessíveis.
+                    Com o foco em desenvolver páginas modernas para pequenos négocios, facilitando o acesso de seus
+                    clientes a informações, contatos e produtos!
                 </p>
             </article>
             <figure id="fotoperfil">
@@ -70,13 +73,13 @@
                         <img src="./img/java.svg" alt="Logo JS">
                     </div>
                     <div class="card ">
-                        <img src="./img/jquery1.png" alt="Logo jQuery" >
+                        <img class="jquery-img" src="./img/jquery1.png" alt="Logo jQuery">
                     </div>
                     <div class="card ">
-                        <img src="./img/vscode.png" alt="Logo VS Code" >
+                        <img src="./img/vscode.png" alt="Logo VS Code">
                     </div>
                     <div class="card ">
-                        <img src="./img/bootstrap.png" alt="Logo Bootstrap"> 
+                        <img src="./img/bootstrap.png" alt="Logo Bootstrap">
                     </div>
                 </div>
             </div>
@@ -84,45 +87,94 @@
 
         <section class="container-projetos">
             <h2>Projetos</h2>
-            <button id="btn-projetos">Ver projetos</button>
+
+            <p class="projetos-txt">
+                Projetos para Inspiração<br>
+                Aqui você encontrará páginas modelo desenvolvidas para quem deseja criar um site profissional, seja
+                para impulsionar seu negócio, divulgar produtos ou aprimorar a comunicação com seus clientes.<br>
+
+                Esses projetos são apenas referências para inspirar ideias. Ao entrar em contato, iremos desenvolver
+                um site exclusivo, alinhado à identidade visual da sua empresa ou ao estilo do seu negócio pessoal,
+                garantindo que sua presença online seja única e impactante.
+            </p>
+            <div class="box-btn">
+
+                <button id="btn-projetos">Ver projetos</button>
+                <button id="btn-projetos" onclick="whats()">Orçamento</button>
+            </div>
+
             <div class="box-cards">
-                
+                <div class="card1">
+
                     <figure>
-                        <img src="./img/dev-tattoo.jpeg" alt="">
+                        <img src="./img/devbarb.png" alt="">
                         <figcaption>
-                            <h3>Dev.Tattoo</h3>
-                            <p>Landing page para tatuadores!</p>
-                            
+                            <h3>Barbearia</h3>
+                            <p>Landing page para Barbeiros!</p>
+    
                         </figcaption>
                         <div class="link-cards">
-                            <a href="https://john-balbino.github.io/JohnRod1.0/" target="_blank"> 
-                                <button type="button" >Ver +</button>
+                            <a href="https://john-balbino.github.io/Barbearia/" target="_blank">
+                                <button type="button">Ver +</button>
                             </a>
                             <a href="https://github.com/John-Balbino" target="_blank">
                                 <i class="fa-brands fa-github-alt"></i>
                             </a>
+                            <a href="" onclick="whats()" class="whats">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
                         </div>
                     </figure>
+                </div>
+                <div class="card1">
+
                     <figure>
-                        <img src="./img/dev-gym.jpeg" alt="">
+                        <img src="./img/dev-gym.png" alt="">
                         <figcaption>
-                            <h3>Dev.Gym</h3>
+                            <h3>Academias</h3>
                             <p>Site para academias!</p>
-                            
+    
                         </figcaption>
                         <div class="link-cards">
                             <a href="https://john-balbino.github.io/Site-Academia/" target="_blank">
-                                <button type="button" >Ver +</button>
+                                <button type="button">Ver +</button>
                             </a>
-                            
+    
                             <a href="https://github.com/John-Balbino" target="_blank">
                                 <i class="fa-brands fa-github-alt"></i>
                             </a>
+                            <a href="" onclick="whats()"  class="whats">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
                         </div>
                     </figure>
-                    
-                   
-                
+                </div>
+                <div class="card1">
+
+                    <figure>
+                        <img src="./img/devmani.png" alt="">
+                        <figcaption>
+                            <h3>Nail Designers</h3>
+                            <p>Site para Nail designers!</p>
+    
+                        </figcaption>
+                        <div class="link-cards">
+                            <a href="https://john-balbino.github.io/Manicure/" target="_blank">
+                                <button type="button">Ver +</button>
+                            </a>
+    
+                            <a href="https://github.com/John-Balbino" target="_blank">
+                                <i class="fa-brands fa-github-alt"></i>
+                            </a>
+                            <a href="" onclick="whats()"  class="whats">
+                                <i class="fa-brands fa-whatsapp" ></i>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+
+
+
             </div>
         </section>
     </main>

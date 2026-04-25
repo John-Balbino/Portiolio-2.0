@@ -43,7 +43,12 @@ footer{
 }
 footer span{
     color: white;
-    font-size: 10px;
+    font-size: 16px;
 }
 
+
+.whats i:hover{
+    color: rgb(0, 254, 0);
+    
+}
 

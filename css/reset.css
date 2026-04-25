@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas neue', sans-serif;
 }
 body{
     color: rgb(255, 255, 255);
-    background: url(../img/fundo.png);
+    background: url(../img/fundo.png) no-repeat center center fixed ;
+
+    background-size: cover ;
     background-attachment: fixed;
-    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -41,5 +42,11 @@ i:hover{
     color: rgb(0, 162, 255);
     transition: 1s ease-in-out;
     transform: scale(1.1);
+}
+p{
+    font-family: 'Roboto';
+    color: antiquewhite;
+    font-weight: 100;
+    
 }
 
